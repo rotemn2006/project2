@@ -1,0 +1,48 @@
+body{
+    background-color: pink;
+   
+}
+header{
+    display: flex;
+    background-color: rgb(241, 133, 151);
+    justify-content:space-between;
+    
+     
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 400%;
+
+}
+#logo{
+    padding:20px;
+    width: 10%;
+    height: 200px ;
+}
+
+#logIn{
+    //display: flex;
+    margin-top: 100px;
+    height:50vh;
+}
+form{
+    width: 50%;
+    background-color:whitesmoke;
+    margin-left: 25%;
+    margin-left: 25%;
+    font-size: 400%;
+    text-align: center;
+    
+} 
+
+
+#signUp{
+    font-size: 50px;
+    margin-bottom:20px;
+}
+
+ button{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}
