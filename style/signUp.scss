@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2em;
+    background-color: pink;
+}
+main{
+    background-color: whitesmoke;
+    padding: 30px;
+    form{ 
+        div{
+            margin-bottom: 20px;
+            input{
+                height: 2em;  
+            } 
+        }
+    }
+    a{
+        font-size: 0.5em;
+    }
+    button{
+        height:fit-content;
+        font-size: 25px;
+        background-color: pink;
+    }
+    
+}
