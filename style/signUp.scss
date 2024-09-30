@@ -5,11 +5,12 @@ body{
     justify-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 2em;
+    
 }
 main{
+    font-size: 2em;
     width: 30%;
-    margin-top: 75px;
+    
     background-color: whitesmoke;
     padding: 70px;
     form{ 
@@ -31,5 +32,5 @@ main{
         background-color: $primeryColor;
         border-color: $seconderyColor;
     }
-   margin-bottom: 75px; 
+   
 }

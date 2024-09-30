@@ -1,5 +1,7 @@
 body {
   background-color: pink;
+  margin: 0;
+  margin-bottom: 75px;
 }
 
 * {
@@ -10,20 +12,19 @@ header {
   display: flex;
   background-color: rgb(241, 133, 151);
   justify-content: space-between;
+  width: 100%;
+  margin-bottom: 75px;
 }
-
-h1 {
-  color: rgb(255, 255, 255);
+header h1 {
+  color: white;
   font-size: 400%;
 }
-
-#logo {
+header #logo {
   padding: 20px;
   width: 10%;
   height: 200px;
 }
-
-#logIn {
+header #logIn {
   margin-top: 100px;
   height: 50vh;
 }
@@ -34,15 +35,13 @@ body {
   justify-items: center;
   flex-direction: column;
   text-align: center;
-  font-size: 2em;
 }
 
 main {
+  font-size: 2em;
   width: 30%;
-  margin-top: 75px;
   background-color: whitesmoke;
   padding: 70px;
-  margin-bottom: 75px;
 }
 main form div {
   margin-bottom: 20px;
