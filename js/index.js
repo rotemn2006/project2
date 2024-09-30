@@ -1,36 +1,39 @@
+//variables
 const submitButton = document.querySelector('button');
-let users = JSON.parse(localStorage.getItem("users"));
+const users = JSON.parse(localStorage.getItem("users"));
+
 
 submitButton.addEventListener('click', (e)=>{
     e.preventDefault();
-    let enterdUserName = document.getElementById('userName').value;
-    let enterdPassword = parseInt(document.getElementById('password').value);
+    const enterdUserName = document.getElementById('userName').value;
+    const enterdPassword = parseInt(document.getElementById('password').value);
+    let doesUserNameExist = [false,null];
 
-    let doseUserNameExist = [false,null];
+    //checking if the details exist in the local storage
     for (let i = 0; i < users.length; i++) {
-        console.log('enterdUserName: ', enterdUserName);
-        console.log('users[i]: ', users[i]);
-        if (enterdUserName === users[i].userName) {
-            doseUserNameExist = [true,i];
+        if (enterdUserName === users[i].userName){
+            doesUserNameExist = [true,i];
         }
     }
-    if (doseUserNameExist[0]=== true){
-        if(enterdPassword === parseInt(users[doseUserNameExist[1]].password)){
-            console.log( enterdPassword);
+
+    if (doesUserNameExist[0]=== true){
+        if(enterdPassword === parseInt(users[doesUserNameExist[1]].password)){
+            console.log(enterdPassword);
             alert(`welcome to GameLand ${enterdUserName}`);
             linkToGamePage();
-            localStorage.setItem('currentUser',JSON.stringify(users[doseUserNameExist[1]]))
-        }else{
+            localStorage.setItem('currentUser',JSON.stringify(users[doesUserNameExist[1]]));
+        }
+        else{
             alert('password is invaled');
         }
-    }else{
+    }
+    else{
         alert("user name dosen't exist");
     }
 });
 
-//submitButton.addEventListener('click',linkToGamePage)
+//move to the game area
 function linkToGamePage(){
     location.href="./html/games.html";
 }
 
-console.log(users);

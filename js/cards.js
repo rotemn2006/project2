@@ -44,6 +44,6 @@ let quiz= [
             {ans:"If you find an interesting stone, keep it - it might save the world",point:5}
         ]
     }
-]
-console.log(quiz);
+];
+
 

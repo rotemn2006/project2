@@ -1,5 +1,6 @@
 @import "./general";
-body{
+
+body {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -7,29 +8,31 @@ body{
     text-align: center;
 }
 
-form{ 
+form {
     width: 30%;
-    background-color:whitesmoke;
-    // margin-left: 25%;
-    // margin-left: 25%;
+    background-color: whitesmoke;
     font-size: 400%;
     text-align: center;
     padding: 70px;
     padding-top: 0;
-    #signUp{
+
+    #signUp {
         font-size: 50px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
-    input{
-        font-size:0.9em;
-        width: 90%; 
-    } 
-    p{
+
+    input {
+        font-size: 0.9em;
+        width: 90%;
+    }
+
+    p {
         font-size: 0.5em;
     }
-    button{
+
+    button {
         margin-top: 10px;
-        height:fit-content;
+        height: fit-content;
         font-size: 30px;
         background-color: $primeryColor;
         border-color: $seconderyColor;

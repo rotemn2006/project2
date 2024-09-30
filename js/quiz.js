@@ -1,5 +1,5 @@
 
-
+//variables
 let numberOfQuestion=0;
 let quesion= document.getElementById("question");
 let answerOne=document.getElementById("answer1");
@@ -30,7 +30,6 @@ function updateScore(score){
 
 //Passing question
 function displayQuestion( ){
- 
     console.log(numberOfQuestion);
     question.textContent= quiz[numberOfQuestion].ques;
     answerOne.textContent= quiz[numberOfQuestion].answer[0].ans;
@@ -41,6 +40,7 @@ function displayQuestion( ){
 
 //Show result
 function showResults(){  
+    document.querySelector("main").style.display="none";
     console.log("hi!");
     let result= document.getElementById("footer");
     let princessImg= document.createElement("img");
@@ -49,6 +49,7 @@ function showResults(){
 
     imgContainer[0].appendChild(princessImg);
 
+//checking which princess are you
     if(sum>=4 && sum<9){
         result.textContent="you are Raponzel!";
         princessImg.src="../imgs/raponzel.jpg";
@@ -62,7 +63,6 @@ function showResults(){
         princessImg.src="../imgs/ariel.jpeg";
     }
     playAgain.textContent="play again";
-    console.log(sum);
    
 }
 
