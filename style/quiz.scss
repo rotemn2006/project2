@@ -1,0 +1,23 @@
+ #question{
+    background-color: rgb(197, 167, 190);
+    border-radius: 20%;
+    height:300px;
+    text-align: center;
+    font-size: 100px;
+
+
+ }
+ section{
+    display:flex;
+    background-color: rgb(255, 129, 152);
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 800px;
+ }
+  .answer{
+    background-color: rgb(245, 236, 233);
+    border-radius: 10%;
+    text-align: center;
+    width: 30%;
+    font-size:80px;
+ }
