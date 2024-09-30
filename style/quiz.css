@@ -32,25 +32,29 @@ header #logIn {
   height: 50vh;
 }
 
-body {
+main {
   margin: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #question {
   background-color: rgb(255, 255, 255);
   border: 10px solid rgb(241, 133, 151);
-  border-radius: 20%;
+  border-radius: 23%;
   height: 200px;
   text-align: center;
   font-size: 75px;
+  width: 80%;
 }
 
 section {
   display: flex;
+  width: 80%;
   flex-direction: row;
   justify-content: space-evenly;
   justify-items: center;
-  height: 200px;
   margin-top: 30px;
 }
 
@@ -59,11 +63,9 @@ section {
   border-radius: 5%;
   border: 10px solid rgb(241, 133, 151);
   text-align: center;
-  width: 30%;
+  width: 27%;
   font-size: 50px;
-  height: -moz-fit-content;
-  height: fit-content;
-  min-height: 150px;
+  height: 305px;
 }
 
 #footer {
@@ -78,8 +80,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-img {
+footer img {
   border-radius: 5%;
   border: 10px solid rgb(241, 133, 151);
   margin-top: 30px;
