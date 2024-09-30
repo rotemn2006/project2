@@ -1,13 +1,15 @@
 const submitButton = document.querySelector('button');
-
-let enterdUserName = document.getElementById('userName').value;
-let enterdPassword = parseInt(document.getElementById('password').value);
 let users = JSON.parse(localStorage.getItem("users"));
 
 submitButton.addEventListener('click', (e)=>{
-   e.preventDefault();
+    e.preventDefault();
+    let enterdUserName = document.getElementById('userName').value;
+    let enterdPassword = parseInt(document.getElementById('password').value);
+
     let doseUserNameExist = [false,null];
     for (let i = 0; i < users.length; i++) {
+        console.log('enterdUserName: ', enterdUserName);
+        console.log('users[i]: ', users[i]);
         if (enterdUserName === users[i].userName) {
             doseUserNameExist = [true,i];
         }
@@ -29,3 +31,5 @@ submitButton.addEventListener('click',linkToGamePage)
 function linkToGamePage(){
     location.href="./html/games.html";
 }
+
+console.log(users);
