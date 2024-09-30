@@ -18,6 +18,7 @@ submitButton.addEventListener('click', (e)=>{
         if(enterdPassword === parseInt(users[doseUserNameExist[1]].password)){
             console.log( enterdPassword);
             alert(`welcome to GameLand ${enterdUserName}`);
+            linkToGamePage();
             localStorage.setItem('currentUser',JSON.stringify(users[doseUserNameExist[1]]))
         }else{
             alert('password is invaled');
@@ -27,7 +28,7 @@ submitButton.addEventListener('click', (e)=>{
     }
 });
 
-submitButton.addEventListener('click',linkToGamePage)
+//submitButton.addEventListener('click',linkToGamePage)
 function linkToGamePage(){
     location.href="./html/games.html";
 }

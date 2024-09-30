@@ -1,7 +1,8 @@
 $primeryColor: pink;
 $seconderyColor: rgb(241,133,151);
 body{
-    background-color: $primeryColor;
+    //background-color: $primeryColor;
+    background-image: url(../imgs/background.jpg);
     margin: 0;
     margin-bottom: 75px;
 }
