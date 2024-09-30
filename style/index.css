@@ -21,8 +21,11 @@ header h1 {
 }
 header #logo {
   padding: 20px;
-  width: 10%;
+  width: 200px;
   height: 200px;
+}
+header #logo:hover {
+  background-color: aliceblue;
 }
 header #logIn {
   margin-top: 100px;
@@ -38,7 +41,7 @@ body {
 }
 
 form {
-  width: 40%;
+  width: 50%;
   background-color: whitesmoke;
   font-size: 400%;
   text-align: center;
