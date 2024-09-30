@@ -4,19 +4,24 @@
     <link rel="stylesheet" href="../style/games.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Games</title>
 </head>
 <body>
     <header>
         <h1>Our Games:</h1> 
-        
+        <h2></h2>
        <a href="../index.html"> <img id="logo" src="../imgs/Gaming-logo-removebg.png"></a>
      </header>
      <main>
         <div><figure><a href="../html/quiz.html"><img src="../imgs/princess.jpg" alt="princess" ></a><figcaption>Which princess are you?</figcaption></figure></div>
-        <div><figure><img src="../imgs/memory.jpg" alt="memory"> <figcaption> Memory game! </figcaption></figure></div>
-        <div><figure><img src="../imgs/bubbles.jpeg" alt="memory"> <figcaption> Bubbles! </figcaption></figure></div>
+        <div><figure><img src="../imgs/memory.jpg" alt="memory"> <figcaption>Memory game!</figcaption></figure></div>
+        <div><figure><img src="../imgs/bubbles.jpeg" alt="memory"> <figcaption>Bubbles!</figcaption></figure></div>
      </main>
-         
+       
+     <script>
+        let currentUser = JSON.parse(localStorage.getItem('currentUser'));
+        let currentUserName = currentUser.userName;
+        document.querySelector('h2').textContent=`Hi ${currentUserName}`;
+     </script>
 </body>
 </html>
