@@ -5,7 +5,7 @@
  }
  #question{
     background-color: rgb(255, 255, 255);
-    border: 10px solid   rgb(255, 129, 152);                                                            ;
+    border: 10px solid $seconderyColor;
     border-radius: 20%;
     height:200px;
     text-align: center;
@@ -16,7 +16,7 @@
  }
  section{
     display:flex;
-    background-color: rgb(255, 129, 152);
+    background-color: $seconderyColor;
     flex-direction: row;
     justify-content: space-evenly;
     justify-items: center;
@@ -27,7 +27,7 @@
     
     background-color: rgb(245, 236, 233);
     border-radius: 5%;
-    border: 4px solid rgb(255, 129, 152);
+    border: 4px solid $seconderyColor;
     text-align: center;
     
     width: 30%;
