@@ -60,4 +60,8 @@ main button {
   font-size: 25px;
   background-color: pink;
   border-color: rgb(241, 133, 151);
+}
+
+em {
+  font-size: 0.5em;
 }/*# sourceMappingURL=signUp.css.map */

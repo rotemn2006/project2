@@ -38,20 +38,29 @@ body {
 }
 
 form {
-  width: 40%;
+  width: 30%;
   background-color: whitesmoke;
   font-size: 400%;
   text-align: center;
   padding: 70px;
+  padding-top: 0;
 }
-
-#signUp {
+form #signUp {
   font-size: 50px;
   margin-bottom: 20px;
 }
-
-button {
-  width: 200px;
-  height: 100px;
+form input {
+  font-size: 0.9em;
+  width: 90%;
+}
+form p {
+  font-size: 0.5em;
+}
+form button {
+  margin-top: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
   font-size: 30px;
+  background-color: pink;
+  border-color: rgb(241, 133, 151);
 }/*# sourceMappingURL=index.css.map */
