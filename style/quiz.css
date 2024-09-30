@@ -95,4 +95,31 @@ footer img {
   justify-content: center;
   text-decoration: underline;
   color: rgb(0, 0, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  #question {
+    font-size: 30px;
+    height: 100px;
+  }
+  .answer {
+    font-size: 25px;
+    height: 140px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer {
+    font-size: 60px;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  footer img {
+    width: 70%;
+    height: auto;
+  }
 }/*# sourceMappingURL=quiz.css.map */
