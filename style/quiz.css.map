@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"quiz.css"}
+{"version":3,"sources":["quiz.scss","quiz.css"],"names":[],"mappings":"AAAC;EACG,oCAAA;EACA,kBAAA;EACA,aAAA;EACA,kBAAA;EACA,gBAAA;ACCJ;;ADGC;EACG,aAAA;EACA,oCAAA;EACA,mBAAA;EACA,6BAAA;EACA,aAAA;ACAJ;;ADEE;EACE,oCAAA;EACA,kBAAA;EACA,kBAAA;EACA,UAAA;EACA,eAAA;ACCJ","file":"quiz.css"}
