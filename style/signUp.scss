@@ -1,3 +1,4 @@
+@import "./general";
 body{
     display: flex;
     align-items: center;
@@ -5,16 +6,18 @@ body{
     flex-direction: column;
     text-align: center;
     font-size: 2em;
-    background-color: pink;
 }
 main{
+    width: 30%;
+    margin-top: 75px;
     background-color: whitesmoke;
-    padding: 30px;
+    padding: 70px;
     form{ 
         div{
             margin-bottom: 20px;
             input{
-                height: 2em;  
+                font-size:0.9em;
+                width: 90%; 
             } 
         }
     }
@@ -22,9 +25,11 @@ main{
         font-size: 0.5em;
     }
     button{
+        margin-top: 10px;
         height:fit-content;
         font-size: 25px;
-        background-color: pink;
+        background-color: $primeryColor;
+        border-color: $seconderyColor;
     }
-    
+   margin-bottom: 75px; 
 }

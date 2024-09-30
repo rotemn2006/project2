@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="../style/signUp.css">
 </head>
 <body>
+    
     <main>
         <h1>sign up</h1>
     <form>
         <div class="userName">
             <label for="userName">User Name:</label>
-            <input id="userName" name="userName" type="text" required>
+            <input id="userName" name="userName" type="text" value="name1" required>
         </div><div class="password">
             <label for="password">Password:</label>
-        <input id="password" name="password" type="password" required>
+        <input id="password" name="password" type="password" value="password1" required>
+        </div><div class="password">
+            <label for="verfiyPassword">Repeat Password:</label>
+        <input id="verfiyPassword" name="verfiyPassword" type="password" value="password1" required>
         </div><div class="email">
             <label for="email">Email:</label>
             <input id="email" name="email" type="email">
-        </div><div class="Password">
+        </div><div class="phoneNumber">
             <label for="phoneNumber">Phone Number:</label>
             <input id="phoneNumber" name="phoneNumber" type="text">
         </div><div class="age">
@@ -30,5 +34,6 @@
     <a href="">allredy signd up? log in!</a>
         <br><button>Sign Up!</button>
     </main>
+    <script src="../js/signUp.js"></script>
 </body>
 </html>
