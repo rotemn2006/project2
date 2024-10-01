@@ -32,6 +32,15 @@ header #logIn {
   height: 50vh;
 }
 
+@media only screen and (max-width: 800px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header #logo {
+    width: 66.6666666667px;
+    height: 66.6666666667px;
+  }
+}
 main {
   margin: 40px;
   display: flex;

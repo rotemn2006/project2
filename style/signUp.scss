@@ -22,8 +22,8 @@ main{
             } 
         }
     }
-    a{
-        font-size: 0.5em;
+    p{
+        font-size: 0.75em;
     }
     button{
         margin-top: 10px;
@@ -36,4 +36,14 @@ main{
 }
 em{
     font-size: 0.5em;
+}
+
+@media only screen and (max-width: 800px){
+   main{
+        font-size:1em ;
+        width:50%;
+    button{
+        font-size: 25px;
+        }
+    }
 }

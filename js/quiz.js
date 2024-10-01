@@ -51,15 +51,15 @@ function showResults(){
 
 //checking which princess are you
     if(sum>=4 && sum<9){
-        result.textContent="you are Raponzel!";
+        result.textContent="You are Raponzel!";
         princessImg.src="../imgs/raponzel.jpg";
     }
     else if(sum>9 && sum<14){
-        result.textContent="you are Snow White!";
+        result.textContent="You are Snow White!";
         princessImg.src="../imgs/snowhite.jpg";
     }
     else{
-        result.textContent="you are Ariel!" ;
+        result.textContent="You are Ariel!" ;
         princessImg.src="../imgs/ariel.jpeg";
     }
     playAgain.textContent="play again";

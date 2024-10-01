@@ -1,5 +1,6 @@
 $primeryColor: pink;
 $seconderyColor: rgb(241,133,151);
+$logoSize: 200px;
 body{
     //background-color: $primeryColor;
     background-image: url(../imgs/background.jpg);
@@ -22,8 +23,8 @@ header {
   
   #logo {
     padding: 20px;
-    width: 200px;
-    height: 200px;
+    width: $logoSize;
+    height: $logoSize;
     
   }
   #logo:hover{
@@ -34,5 +35,16 @@ header {
   #logIn {
     margin-top: 100px;
     height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px){
+  header{
+    h1{
+      font-size: 30px;
+    }
+    #logo{
+      width: $logoSize/3;
+      height: $logoSize/3;
+    }
   }
 }

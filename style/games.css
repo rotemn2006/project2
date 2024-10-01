@@ -32,15 +32,23 @@ header #logIn {
   height: 50vh;
 }
 
+@media only screen and (max-width: 800px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header #logo {
+    width: 66.6666666667px;
+    height: 66.6666666667px;
+  }
+}
 main {
   display: flex;
   justify-content: space-between;
 }
-
-img {
+main img {
   border-radius: 5%;
   border: 15px solid rgb(241, 133, 151);
-  width: 600px;
+  width: 640px;
   height: 900px;
 }
 
@@ -49,4 +57,18 @@ figcaption {
   border: 4px solid rgb(241, 133, 151);
   background-color: rgb(245, 230, 232);
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  main img {
+    height: 450px;
+    width: 320px;
+  }
+  main figcaption {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=games.css.map */

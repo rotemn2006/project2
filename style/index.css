@@ -32,6 +32,15 @@ header #logIn {
   height: 50vh;
 }
 
+@media only screen and (max-width: 800px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header #logo {
+    width: 66.6666666667px;
+    height: 66.6666666667px;
+  }
+}
 body {
   display: flex;
   align-items: center;
@@ -43,7 +52,7 @@ body {
 form {
   width: 30%;
   background-color: whitesmoke;
-  font-size: 400%;
+  font-size: 350%;
   text-align: center;
   padding: 70px;
   padding-top: 0;
@@ -66,4 +75,20 @@ form button {
   font-size: 30px;
   background-color: pink;
   border-color: rgb(241, 133, 151);
+}
+
+@media only screen and (max-width: 800px) {
+  form {
+    font-size: 170%;
+    width: 60%;
+    padding: 40px;
+  }
+  form p {
+    font-size: 45%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  form button {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=index.css.map */
