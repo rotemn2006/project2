@@ -51,6 +51,9 @@ main img {
   width: 640px;
   height: 900px;
 }
+main img:hover {
+  opacity: 0.7;
+}
 
 figcaption {
   font-size: 50px;

@@ -15,7 +15,7 @@ answerTwo.addEventListener("click",(event)=>updateScore(3));
 answerThree.addEventListener("click",(event)=>updateScore(5));
 
 
-//Apdate score
+//Update score
 function updateScore(score){
     if(parseInt(numberOfQuestion)< parseInt(quiz.length)){
         sum = sum+score;
@@ -51,11 +51,11 @@ function showResults(){
    
 //checking which princess are you
     if(sum>=5 && sum<11){
-        result.textContent="you are Raponzel!";
+        result.textContent="You are Raponzel!";
         princessImg.src="../imgs/raponzel.jpg";
     }
     else if(sum>11 && sum<18){
-        result.textContent="you are Snow White!";
+        result.textContent="You are Snow White!";
         princessImg.src="../imgs/snowhite.jpg";
     }
     else{

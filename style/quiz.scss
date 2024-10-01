@@ -15,8 +15,6 @@
     font-size: 75px;
     width:80%;
  }
-
-
  section{
     display:flex;
     width: 80%;
@@ -33,6 +31,9 @@
     width: 27%;
     font-size:50px;
     height: 305px;
+ }
+ .answer:hover{
+   background-color: rgb(236, 173, 152);
  }
  #footer{
     color:rgb(0, 0, 0);
@@ -62,7 +63,7 @@
     color: rgb(0, 0, 255);
  }
 
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 800px){
    #question{
       font-size: 30px;
       height: 100px;
