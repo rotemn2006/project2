@@ -1,48 +1,50 @@
  
  @import "./general";
- body{
+ main{
     margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
  }
  #question{
     background-color: rgb(255, 255, 255);
     border: 10px solid $seconderyColor;
-    border-radius: 20%;
+    border-radius: 23%;
     height:200px;
     text-align: center;
     font-size: 75px;
+    width:80%;
  }
 
 
  section{
     display:flex;
+    width: 80%;
     flex-direction: row;
     justify-content: space-evenly;
     justify-items: center;
-    height: 200px;
     margin-top: 30px;
  }
-
-.answer{
-   background-color: rgb(245, 236, 233);
-   border-radius: 5%;
-   border: 10px solid $seconderyColor;
-   text-align: center;
-   width: 30%;
-   font-size:50px;
-   height: fit-content;
-   min-height: 150px;
+  .answer{
+    background-color: rgb(245, 236, 233);
+    border-radius: 5%;
+    border: 10px solid $seconderyColor;
+    text-align: center;
+    width: 27%;
+    font-size:50px;
+    height: 305px;
  }
  #footer{
-   color:rgb(0, 0, 0);
-   font-size: 100px;
-   margin-top: 40px;
-   height: 100px;
-   text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 100px;
+    margin-top: 40px;
+    height: 100px;
+    text-align: center;
  }
  footer{
-   display: flex;
-   justify-content: center;
- }
+    display: flex;
+    justify-content: center;
+ 
  img{
    border-radius: 5%;
    border: 10px solid $seconderyColor;
@@ -51,10 +53,38 @@
    width:20%;
    height:500px;
  }
+}
  #playAgain{
    display: flex;
     font-size: 50px;
     justify-content: center;
     text-decoration: underline;
     color: rgb(0, 0, 255);
+ }
+
+ @media only screen and (max-width: 600px){
+   #question{
+      font-size: 30px;
+      height: 100px;
+   }
+   .answer{
+      font-size:25px ;
+      height: 140px;
+      width: 70%;
+      margin-bottom: 20px;
+   }
+   section{
+      flex-direction: column;
+      align-items: center;
+   }
+   #footer{
+      font-size: 60px;
+   }
+   footer{
+      margin-top: 20px;
+      img{
+         width:70%;
+         height: auto;
+      }
+   }
  }
