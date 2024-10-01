@@ -1,36 +1,40 @@
 $primeryColor: pink;
-$seconderyColor: rgb(241,133,151);
-body{
-    //background-color: $primeryColor;
-    background-image: url(../imgs/background.jpg);
-    margin: 0;
-    margin-bottom: 75px;
+$seconderyColor: rgb(241, 133, 151);
+
+body {
+  background-image: url(../imgs/background.jpg);
+  margin: 0;
+  margin-bottom: 75px;
 }
-*{
-    font-family: Arial, Helvetica, sans-serif;
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
-    display: flex;
-    background-color: $seconderyColor;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 75px;
+  display: flex;
+  background-color: $seconderyColor;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 75px;
+
   h1 {
     color: white;
     font-size: 400%;
   }
-  
+
   #logo {
     padding: 20px;
     width: 200px;
     height: 200px;
-    
+
   }
-  #logo:hover{
+
+  #logo:hover {
     background-color: aliceblue;
   }
 
-  
+
   #logIn {
     margin-top: 100px;
     height: 50vh;

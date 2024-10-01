@@ -43,6 +43,14 @@ let quiz= [
             {ans:"Never accept a gift from a stranger",point:3},
             {ans:"If you find an interesting stone, keep it - it might save the world",point:5}
         ]
+    },
+    {
+        ques:"How was the game?",
+        answer:[
+            {ans:"Awsome!",point:1},
+            {ans:"Amazing!",point:3},
+            {ans:"OK",point:5}
+        ]
     }
 ];
 

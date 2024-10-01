@@ -8,7 +8,7 @@ const age = document.getElementById('age');
 
 submitButton.addEventListener('click', checkIfValid);
 
-//checking if the user put his details in the log in
+//checking if the user put his details in the sign up
 function checkIfValid() {
     if (userName.value !== '' && password.value !== '') { //todo - think
         createNewUser();

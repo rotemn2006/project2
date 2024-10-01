@@ -41,20 +41,20 @@ function displayQuestion( ){
 //Show result
 function showResults(){  
     document.querySelector("main").style.display="none";
-    console.log("hi!");
+    
     let result= document.getElementById("footer");
     let princessImg= document.createElement("img");
     let imgContainer= document.getElementsByTagName("footer");
     let playAgain= document.getElementById("playAgain");
 
     imgContainer[0].appendChild(princessImg);
-
+   
 //checking which princess are you
-    if(sum>=4 && sum<9){
+    if(sum>=5 && sum<11){
         result.textContent="you are Raponzel!";
         princessImg.src="../imgs/raponzel.jpg";
     }
-    else if(sum>9 && sum<14){
+    else if(sum>11 && sum<18){
         result.textContent="you are Snow White!";
         princessImg.src="../imgs/snowhite.jpg";
     }

@@ -10,41 +10,38 @@
     height:200px;
     text-align: center;
     font-size: 75px;
-    
-
-
  }
+
+
  section{
     display:flex;
-    //background-color: $seconderyColor;
     flex-direction: row;
     justify-content: space-evenly;
     justify-items: center;
     height: 200px;
     margin-top: 30px;
  }
-  .answer{
-    background-color: rgb(245, 236, 233);
-    border-radius: 5%;
-    border: 10px solid $seconderyColor;
-    text-align: center;
-    
-    width: 30%;
-    font-size:50px;
-    height: fit-content;
-    min-height: 150px;
+
+.answer{
+   background-color: rgb(245, 236, 233);
+   border-radius: 5%;
+   border: 10px solid $seconderyColor;
+   text-align: center;
+   width: 30%;
+   font-size:50px;
+   height: fit-content;
+   min-height: 150px;
  }
  #footer{
-    color:rgb(0, 0, 0);
-    
-    font-size: 100px;
-    margin-top: 40px;
-    height: 100px;
-    text-align: center;
+   color:rgb(0, 0, 0);
+   font-size: 100px;
+   margin-top: 40px;
+   height: 100px;
+   text-align: center;
  }
  footer{
-    display: flex;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
  }
  img{
    border-radius: 5%;
